@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="confeitarialight" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ser Saudável Também é Ser Doce.">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Confeitaria, Doces Saudáveis">
+    <meta name="author" content="Confeitaria Light">
+    
+    <title>Confeitaria Light</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Scripts JavaScript -->
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo à Confeitaria Light</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#valores">Essência</a></li>
+                <li><a href="#catalogo">Catálogo</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre">
+            <h2>Nossa Missão</h2>
+            <p>Proporcionar momentos de doçura e prazer aos nossos clientes por meio de produtos saudáveis, demonstrando que é possível consumir doces de forma equilibrada e nutritiva.</p>
+
+            <h2>Nossa Visão</h2>
+            <p>Ser referência no mercado de confeitaria saudável, inovando constantemente para atender às necessidades dos consumidores que buscam sabor e bem-estar.</p>
+        </section>
+
+        <section id="valores">
+            <h2>Nossa Essência</h2>
+            <ul>
+                <li><strong>Saúde e qualidade:</strong> Doces saudáveis e saborosos</li>
+                <li><strong>Atendimento:</strong> Cordialidade e transparência</li>
+                <li><strong>Comprometimento:</strong> Eficiência e organização</li>
+                <li><strong>Localidade:</strong> Local de fácil acesso</li>
+            </ul>
+        </section>
+
+        
+            <h2>Catálogo de Produtos</h2>
+            <div class="produto">
+                <h3>Brigadeiros Saudáveis</h3>
+                <img src="brigadeiro.jpg" alt="Brigadeiros saudáveis" width="200">
+                <p>Feitos com ingredientes naturais e sem adição de açúcar refinado.</p>
+            </div>
+            <div class="produto">
+                <h3>Bolo de Frutas</h3>
+                <img src="bolo-frutas.jpg" alt="Bolo com frutas" width="200">
+                <p>Delicioso e nutritivo, perfeito para comemorações sem culpa.</p>
+            </div>
+            <div class="produto">
+                <h3>Cookies com Gotas de Chocolate</h3>
+                <img src="cookies.jpg" alt="Cookies com gotas de chocolate" width="200">
+                <p>Crocantes por fora, macios por dentro e com ingredientes integrais.</p>
+            </div>
+        </section><section id="catalogo">
+    <h2>Catálogo de Produtos</h2>
+    <div class="produto">
+        <img src="brigadeiro.jpg" alt="Brigadeiro saudável">
+        <h3>Brigadeiro Fit</h3>
+        <p>Feito com cacau 70%, sem adição de açúcar.</p>
+    </div>
+    <div class="produto">
+        <img src="bolo.jpg" alt="Bolo saudável">
+        <h3>Bolo de Frutas</h3>
+        <p>Bolo leve com frutas vermelhas e cobertura de iogurte natural.</p>
+    </div>
+    <div class="produto">
+        <img src="cookie.jpg" alt="Cookie saudável">
+        <h3>Cookie Integral</h3>
+        <p>Com aveia e gotas de chocolate 60%, sem glúten.</p>
+    </div>
+</section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <p><strong>Instagram:</strong> <a href="https://instagram.com/confeitarialight" target="_blank">@confeitarialight</a></p>
+            <p><strong>WhatsApp:</strong> <a href="tel:+551140028922">+55 11 4002 - 8922</a></p>
+            <p><strong>Endereço:</strong> Avenida dos Sonhos Nº 1</p>
+        </section>
+    </main>
+
+ 
+</body>
+</html>
